@@ -1,6 +1,8 @@
 import numpy as np
 import cv2
 import os
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import PIL
 from PIL import ImageTk
 import PIL.Image
@@ -14,7 +16,7 @@ import time
 
 from keras.models import load_model
 image_x, image_y = 64, 64
-classifier = load_model('model.h5')
+classifier = load_model('model.h5' , compile = False)
 
 
 def give_char():
