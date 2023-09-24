@@ -12,7 +12,7 @@ import string
 from tkinter import *
 import time
 try:
-    import Tkinter as tk
+    import tkinter as tk
 except:
     import tkinter as tk
 import numpy as np
@@ -39,8 +39,8 @@ def check_sim(i,file_map):
                             return 1,item
        return -1,""
 
-op_dest="/home/aniket/Desktop/Projects/gif_extract/filtered_data/"
-alpha_dest="/home/aniket/Desktop/Projects/gif_extract/alphabet/"
+op_dest="C:/Users/PREDATOR/Desktop/dona/dona_project_day/filtered_data/"
+alpha_dest="C:/Users/PREDATOR/Desktop/dona/dona_project_day/alphabet/"
 dirListing = os.listdir(op_dest)
 editFiles = []
 for item in dirListing:

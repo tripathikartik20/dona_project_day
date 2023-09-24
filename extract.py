@@ -1,4 +1,4 @@
-import os
+'''import os
 import shutil
 def getListOfFiles(dirName):
     listOfFile = os.listdir(dirName)
@@ -20,3 +20,4 @@ data=getListOfFiles(dirname)
 for i in range(len(data)):
     fname=dest+str(i)+".webp"
     shutil.copyfile(data[i], fname)
+'''
